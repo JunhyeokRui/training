@@ -3,7 +3,8 @@
 Usage:
     $ python path/to/detect.py --source path/to/img.jpg --weights yolov5s.pt --img 640
 """
-#!/home/dyros/anaconda3/envs/yhpark/bin/python
+#!/usr/bin/python
+#!/usr/local/bin/python
 # from torch._C import R
 import torch.cuda #import set_stream
 import rospy
