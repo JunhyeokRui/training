@@ -130,6 +130,14 @@ https://user-images.githubusercontent.com/68195716/132668170-fafce57b-352e-41f5-
 
 ### 4-1. Run with pretrained weight
 
+Change the ```REID_CKPT``` path in ```deep_sort.yaml``` to your path
+
+Example
+
+```
+REID_CKPT:"/home/dyros/JH/downloads/parking_spot_corner_detector/deep_sort_pytorch/deep_sort/deep/resnet18_margin_0.3_more_data_epoch_300.pth" 
+```
+
 Even with a pretrained feature extractor network, DeepSORT can quite robustly track multiple marking points. You can check the result with pretrained weights using the code below:
 
 ```
