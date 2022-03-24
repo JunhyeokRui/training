@@ -193,7 +193,7 @@ I've done this step point by point
 Note, ```point_a``` and ```point_b``` are physically differernt marking points, while ```x.png``` and ```y.png``` are the same physical marking points, captured from different frames. I created this dataset using the following annotation tool:
 
 ```
-python annotation_tool_for_avm_deepsort.py --trial --dataset your_dataset --trial trial_A --bb_size 20
+python annotation_tool_for_avm_deepsort.py --dataset your_dataset --trial trial_A --bb_size 20
 ```
 
 If you want to generate a new cropped dataset with different ```bb_size```, use:
