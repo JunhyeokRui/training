@@ -130,7 +130,7 @@ https://user-images.githubusercontent.com/68195716/132668170-fafce57b-352e-41f5-
 
 ### 4-1. Run with pretrained weight
 
-####Change the ```REID_CKPT``` path in ```deep_sort.yaml``` to your path
+#### Change the ```REID_CKPT``` path in ```deep_sort.yaml``` to your path
 
 Example
 
